@@ -5,6 +5,8 @@ import (
 	"strconv"
 )
 
+const LENGTH = 10
+
 var list []string
 
 func main() {
