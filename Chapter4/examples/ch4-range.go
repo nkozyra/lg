@@ -14,7 +14,6 @@ func main() {
 		v := "Entry #" + strconv.FormatInt(int64(i), 10)
 		list = append(list, v)
 	}
-
 	for j := range list {
 		log.Println(list[j])
 	}
